@@ -13,7 +13,7 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <header className="py-6 mb-12 border-b">
-      <div className=" container  flex justify-between  px-2">
+      <div className="container mx-auto flex justify-between items-center">
         <div className=" hidden sm:flex items-center gap-6 text-lg font-bold">
         <Link to="/" className="logo flex text-2xl ">
           <FaHome/> 
@@ -36,7 +36,7 @@ const Header = () => {
           </select>
         </div>
         
-        <div className="hidden sm:flex items-center gap-8">
+        <div className="hidden sm:flex items-center gap-6">
           <Link
             className="bg-white-700 text-violet px-4 py-3 rounded-lg transition"
             to="/"
